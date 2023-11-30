@@ -1,3 +1,4 @@
+import Logo from "../assets/img/new-view-logo.png";
 const NavBar = () => {
   return (
     <>
@@ -14,11 +15,17 @@ const NavBar = () => {
           </div>
         </nav>
         <div className="nav-logo-box">
-          <img src="" alt="" />
+          <a href="">
+            <img src={Logo} alt="Hairdresser logo" />
+          </a>
         </div>
         <div className="nav-btn-con">
-          <button className="book-btn">Book now!</button>
-          <button className="contact-btn">Contact me</button>
+          <div className="btn-box book-btn">
+            <button>Book now!</button>
+          </div>
+          <div className="btn-box contact-btn">
+            <button>Contact me</button>
+          </div>
         </div>
       </header>
     </>

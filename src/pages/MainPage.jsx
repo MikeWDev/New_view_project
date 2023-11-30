@@ -4,6 +4,9 @@ const MainPage = () => {
   return (
     <>
       <NavBar />
+      <section className="section-home">
+        <div className="container"></div>
+      </section>
     </>
   );
 };
